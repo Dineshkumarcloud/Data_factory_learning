@@ -1,0 +1,9 @@
+{
+	"name": "Mabdatapipelinesync",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "57c2509c-8b6e-465d-b294-a9aaff754da2",
+		"tenantId": "1727c441-4159-4d9a-a0ac-0c7451a5f746"
+	}
+}

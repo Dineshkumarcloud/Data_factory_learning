@@ -1,0 +1,30 @@
+{
+	"name": "AzureSqlTable_dest",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase_mab_dest",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Series_reference",
+				"type": "varchar"
+			},
+			{
+				"name": "Period",
+				"type": "varchar"
+			},
+			{
+				"name": "Data_value",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "mab_table"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
